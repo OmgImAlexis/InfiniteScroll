@@ -2,6 +2,7 @@
   function load(){
     var url = window.location.pathname;
     var page = url.split('/')[1];
+    var container = $(entry).parent();
     if (page == 'tagged'){
       var tag = url.split('/')[2];
       if ($('#nextPage').length != 0){
