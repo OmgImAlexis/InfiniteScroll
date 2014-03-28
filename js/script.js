@@ -1,5 +1,5 @@
 (function(){
-  $(window).on("load resize scroll",function(e){
+  function load(){
     var url = window.location.pathname;
     var page = url.split('/')[1];
     var nextPage = String($('#nextPage').attr('href'));
@@ -15,5 +15,13 @@
         itemSelector: entry
       });
     });
+  }
+  $(window).on("load resize",function(e){
+    load();
+  });
+  $(window).on("scroll",function(e){
+    if ($(window).scrollTop() + $(window).height() > ){
+      load();
+    }
   });
 })();
