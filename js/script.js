@@ -20,7 +20,7 @@
     load();
   });
   $(window).on("scroll",function(e){
-    if ($(window).scrollTop() + $(window).height() > ){
+    if ($(window).scrollTop() + $(window).height()){
       load();
     }
   });
