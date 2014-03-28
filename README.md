@@ -1,8 +1,7 @@
 Tumblr Infinite Scroll
 ==============
 <br>
-Add this to your theme before </head> and then replace .entry with your entry class/ID<br>
-and container with your container for the entrys.
+Add this to your theme before </head> and then replace .entry with your entry class/ID.
 ```
 <script>
 var entry = '.entry';
