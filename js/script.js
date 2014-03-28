@@ -19,8 +19,9 @@
     }
     var nextPage = String($('#nextPage').attr('href'));
     $.get(nextPage, function(data){
-      $(data).find(container + " " + entry).appendTo(container);
-      var msnry = new Masonry( container, {
+      $(data).find(entry).appendTo(container);
+      var msnry_container = document.querySelector('#' + container.attr("id"));
+      var msnry = new Masonry(msnry_container, {
         itemSelector: entry
       });
     });
