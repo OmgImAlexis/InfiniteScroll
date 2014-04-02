@@ -7,5 +7,5 @@ Add this to your theme before </ head> and then replace .entry with your entry c
 var entry = '.entry';
 </script>
 <script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="http://static.tumblr.com/ib6vvvn/6NPn3738l/script.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/ib6vvvn/Tpjn3e8fv/script.js"></script>
 ```

@@ -26,6 +26,11 @@
           itemSelector: entry
         });
       });
+    } else {
+      var a = $('.more_notes_link')[0];
+      var e = document.createEvent('MouseEvents');
+      e.initEvent( 'click', true, true );
+      a.dispatchEvent(e);
     }
   }
   $(window).on("load resize",function(e){
